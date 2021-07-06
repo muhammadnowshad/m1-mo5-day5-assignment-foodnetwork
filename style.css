@@ -4,32 +4,36 @@ body{
     margin: 0;
     font-size: 20px;
     font-weight: 400;
+    line-height: 1.5;
 }
 h1{
     font-size: 76px;
     font-weight: 900;
 }
 h2{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 900;
 }
-
+h3{
+    font-size: 45px;
+    font-weight: 600;
+}
 .all-section{
     display: flex;
-    padding: 100px 5%;
+    padding: 130px 5%;
 
 }
 .half-width{
     width: 50%;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 
 /* This is Welcome section.*/
-.welcome-section{
+#welcome-section{
     background-image: url(images/welcome-bg.jpg);
     background-size: cover;
     background-position: center center;
-    height: 450px;
+    height: 400px;
 }
 .welcome-img{
     background-image: url(images/welcome-img.png);
@@ -39,17 +43,20 @@ h2{
     border-radius: 50%;
     border: 12px solid #FC8F49;
 }
-.welcome-tag{
-    line-height: 1.5;
-}
 
-/* This is home page hero area*/
+/* This is skip-section*/
+#skip-section{
+    margin: 20px 0;
+}
+#skip-section div h2{
+    margin: 0;
+    line-height: 1.2;
+}
 .skip-color{
     color: #FC8F49;
 }
-.half-width p{
-    margin-bottom: 70px;
-    line-height: 1.5;
+.skip-ptag{
+    margin-bottom: 60px;
 }
 .link-button{
     padding: 18px 40px;
@@ -59,21 +66,36 @@ h2{
     font-size: 20px;
     background-image: linear-gradient( to right,#FC8F49,#FD4D30);   
 }
-.hero-image img{
-    width: 70%;
-    height: 80%;
+
+.skip-image img{
+    width: 85%;
+    height: 85%;
     border-radius: 70px;
     background-image: linear-gradient(#FD4D30,#FC8F49);
+    margin-left: 20px;
 }
 
 /* This is about section */
+#about-section{
 
+}
 #about-section{
     background-image: url(images/about-bg-image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     padding: 150px 0;
-    margin-left: 0;
+}
+.about-image img{
+    width: 70%;
+    height: 100%;
+    border-radius: 70px;
+    background-image: linear-gradient(#FD4D30,#FC8F49);
+    margin-left: 10%;
+}
+.about-me h3{margin: 0;
+}
+.about-me p{margin-bottom: 60px;
+    padding-right: 15%;
 }
 
 /* This is about section */
