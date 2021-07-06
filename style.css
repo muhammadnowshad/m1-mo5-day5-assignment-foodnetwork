@@ -18,6 +18,10 @@ h3{
     font-size: 45px;
     font-weight: 600;
 }
+h4{
+    font-size: 35px;
+    font-weight: 600;
+}
 .all-section{
     display: flex;
     padding: 130px 5%;
@@ -77,9 +81,6 @@ h3{
 
 /* This is about section */
 #about-section{
-
-}
-#about-section{
     background-image: url(images/about-bg-image.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -98,12 +99,41 @@ h3{
     padding-right: 15%;
 }
 
-/* This is about section */
+/* This is recipie section */
 
-.recipie-section p {
-    text-align: center;
+#recipie-section{
+    padding-bottom: 50px;
 }
-
-.recipie-item{
-    display: flex;
+#recipie-section h3{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+.recipie-ptag{
+    text-align: center;
+    padding: 0 25%;
+}
+.recipie-div{
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recipie-items img{
+    height: 60%;
+    width: 100%;
+    background-position: center;
+}
+.recipie-items{
+    box-shadow: 5px 5px 5px 5px #acabab;
+    width: 25%;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 30px;
+    margin: 31px;
+    text-align: left;
+}
+.recipie-items h4{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 15px;
 }
