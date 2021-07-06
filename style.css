@@ -6,7 +6,7 @@ body{
     font-weight: 400;
 }
 h1{
-    font-size: 60px;
+    font-size: 76px;
     font-weight: 900;
 }
 h2{
@@ -14,16 +14,36 @@ h2{
     font-weight: 700;
 }
 
-/* This is home page hero area*/
-
 .all-section{
     display: flex;
-    margin-top: 100px;
-    margin-left: 5%;
+    padding: 100px 5%;
+
 }
 .half-width{
     width: 50%;
+    padding-left: 3%;
 }
+
+/* This is Welcome section.*/
+.welcome-section{
+    background-image: url(images/welcome-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+}
+.welcome-img{
+    background-image: url(images/welcome-img.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    border: 12px solid #FC8F49;
+}
+.welcome-tag{
+    line-height: 1.5;
+}
+
+/* This is home page hero area*/
 .skip-color{
     color: #FC8F49;
 }
@@ -48,3 +68,20 @@ h2{
 
 /* This is about section */
 
+#about-section{
+    background-image: url(images/about-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 150px 0;
+    margin-left: 0;
+}
+
+/* This is about section */
+
+.recipie-section p {
+    text-align: center;
+}
+
+.recipie-item{
+    display: flex;
+}
