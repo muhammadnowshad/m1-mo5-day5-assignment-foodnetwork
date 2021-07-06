@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #575757;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+/* This is home page hero area*/
+
+.all-section{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 5%;
+}
+.half-width{
+    width: 50%;
+}
+.skip-color{
+    color: #FC8F49;
+}
+.half-width p{
+    margin-bottom: 70px;
+    line-height: 1.5;
+}
+.link-button{
+    padding: 18px 40px;
+    border-radius: 70px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient( to right,#FC8F49,#FD4D30);   
+}
+.hero-image img{
+    width: 70%;
+    height: 80%;
+    border-radius: 70px;
+    background-image: linear-gradient(#FD4D30,#FC8F49);
+}
+
+/* This is about section */
+
+.about-section
